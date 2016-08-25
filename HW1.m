@@ -5,13 +5,22 @@
 % Fill in the blank space in this section with code that will add 
 % the two numbers regardless of variable type. Hint see the matlab
 % functions ischar, isnumeric, and str2num. 
-
+%confirmingchange
 %your code should work no matter which of these lines is uncommented. 
 x = 3; y = 5; % integers
 %x = '3'; y= '5';
 
 %your code goes here
-
+x='3';y='5'
+if ischar(x)==1 
+    numx=str2num(x)
+else numx=x
+end
+if ischar(y)==1
+    numy=str2num(y)
+else numy=y
+end
+correct=numx+numy
 %output your answer
 
 %% Problem 2 - our first real biology problem. Open reading frames and nested loops.
