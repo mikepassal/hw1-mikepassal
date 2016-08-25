@@ -1,0 +1,37 @@
+% Homework 1. Due before class on 9/6/16.
+
+%% Problem 1 - addition with strings
+
+% Fill in the blank space in this section with code that will add 
+% the two numbers regardless of variable type. Hint see the matlab
+% functions ischar, isnumeric, and str2num. 
+
+%your code should work no matter which of these lines is uncommented. 
+x = 3; y = 5; % integers
+%x = '3'; y= '5';
+
+%your code goes here
+
+%output your answer
+
+%% Problem 2 - our first real biology problem
+
+%part 1: write a piece of code that creates a random DNA sequence of length
+% N (i.e. consisting of the letter ATGC) where will start with N=500.
+% store the output in a variable
+% called rand_seq. Hint: the function randi may be useful. Bonus points if
+% you can do this without using a loop.
+
+N = 100; % define sequence length
+
+%your code goes here
+
+
+%part 2: open reading frames (ORFs) are pieces of DNA that can be
+% transcribed and translated. they start with a start codon (ATG) and end with a
+% stop codon (TAA, TGA, or TAG). Write a piece of code that finds the longest ORF 
+% seqeunce rand_seq. This can be in base pairs. 
+
+%part 3: copy your code in parts 1 and 2 but place it inside a loop that
+%runs 10000 times. Use this repeating operation to determine the operation
+%that a string of 
