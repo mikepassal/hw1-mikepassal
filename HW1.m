@@ -33,6 +33,7 @@ correct=numx+numy
 
 N = 500; % define sequence length
 
+predna=randi(4,500,1)
 
 
 %part 2: open reading frames (ORFs) are pieces of DNA that can be

@@ -11,10 +11,16 @@ x = 3; y = 5; % integers
 %x = '3'; y= '5';
 
 %your code goes here
-x=3;y=5
-if ischar(x)=1 
-    str2num(x)
-else 
+x='3';y='5'
+if ischar(x)==1 
+    numx=str2num(x)
+else numx=x
+end
+if ischar(y)==1
+    numy=str2num(y)
+else numy=y
+end
+correct=numx+numy
 %output your answer
 
 %% Problem 2 - our first real biology problem. Open reading frames and nested loops.
@@ -27,7 +33,7 @@ else
 
 N = 500; % define sequence length
 
-
+randi(4,500,
 
 %part 2: open reading frames (ORFs) are pieces of DNA that can be
 % transcribed and translated. they start with a start codon (ATG) and end with a
