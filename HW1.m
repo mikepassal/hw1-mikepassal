@@ -33,7 +33,20 @@ correct=numx+numy
 
 N = 500; % define sequence length
 
-predna=randi(4,500,1)
+predna=randi(4,500,1);
+x=1
+while x<501
+    if predna(x)==1 
+        dna(x,1)=['t']
+    elseif predna(x)==2
+            dna(x,1)=['g']
+    elseif predna(x)==3
+                dna(x,1)=['a']
+    else
+                dna(x,1)=['c']
+    end
+    x=x+1
+end
 
 
 %part 2: open reading frames (ORFs) are pieces of DNA that can be
