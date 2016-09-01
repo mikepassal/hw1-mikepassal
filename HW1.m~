@@ -59,7 +59,7 @@ locationstop2=strfind(dna,'tga')
 locationstop3=strfind(dna,'tag')
 
 for n=locationstart
-   n-
+    disp(locationstart(1,n))
 end
     
 %part 3: copy your code in parts 1 and 2 but place it inside a loop that
